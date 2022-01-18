@@ -17,6 +17,7 @@ else:
     print("Me gusta tu nombre")
 time.sleep(0.5)
 print("¿Que edad tienes?")
+
 edad = input()
  
 if edad<="17":
@@ -228,6 +229,7 @@ def calculadora():
             restando1 = int(input("Numero 1:"))
             time.sleep(0.5)
             restando2 = int(input("Numero 2:"))
+            resultado = restando1 + restando2
             time.sleep(0.5)
             menucalculadora()
 
